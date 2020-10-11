@@ -10,7 +10,7 @@ here:
 
 ## Usage Example
 
-You can find an example core file here: [https://github.com/ClimateChangeInstitute/icd/blob/main/etc/991test1.csv](991test1.csv).  Use this file as a reference for how the program expects the data to be structured.  The top few lines are listed below.
+You can find an example core file here: [991test1.csv](etc/991test1.csv).  Use this file as a reference for how the program expects the data to be structured.  The top few lines are listed below.
 
 ``` pure-data
 tube,top,bottom,length,Na (ppb),NH4 (ppb),K (ppb),Mg (ppb),Ca (ppb),Cl (ppb),NO3 (ppb),SO4 (ppb)
@@ -29,7 +29,7 @@ the program.
 
 ## Building
 
-You can build the project using [http://maven.apache.org/](Maven).  From the root of the project directory structure typing
+You can build the project using [Maven](http://maven.apache.org/).  From the root of the project directory structure typing
 
 ``` bash
 mvn package
