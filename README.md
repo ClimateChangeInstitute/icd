@@ -23,7 +23,8 @@ tube,top,bottom,length,Na (ppb),NH4 (ppb),K (ppb),Mg (ppb),Ca (ppb),Cl (ppb),NO3
 
 Data is separated using commas.  The first line contains the column
 names.  The rest of the rows contain comma separated data.  Missing
-data and -99s are replaced with zeroes.
+data and data values of -99 are replaced with zeroes when imported by
+the program.
 
 
 ## Building
