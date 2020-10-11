@@ -51,7 +51,15 @@ public class Editor extends JFrame {
 	JEditorPane editor = new JEditorPane();
 	JScrollPane jScrollPane1 = new JScrollPane();
 
+	/**
+	 * Display the report.  If reportFile is null, ignore the request.
+	 * 
+	 * @param reportFile Null argument is ignored
+	 */
 	public Editor(File reportFile) {
+		if (reportFile == null)
+			return;
+		
 		try {
 			editor.read(new BufferedReader(new java.io.FileReader(reportFile)),
 					null);
